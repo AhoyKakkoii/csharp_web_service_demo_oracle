@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/ApprDivSummary.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/ApprDivSummary.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/ApprDivSummary.xsd" id="ApprDivSummary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="ApprDivSummary">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ROW_ID" type="xs:string" />
+              <xs:element minOccurs="0" name="ORGN" type="xs:string" />
+              <xs:element minOccurs="0" name="DIV" type="xs:string" />
+              <xs:element minOccurs="0" name="SumOfPREENCUMBRANCE" type="xs:string" />
+              <xs:element minOccurs="0" name="SumOfENCUMBRANCE" type="xs:string" />
+              <xs:element minOccurs="0" name="SumOfEXPEND" type="xs:string" />
+              <xs:element minOccurs="0" name="DEPT_DIV_NM" type="xs:string" />
+              <xs:element minOccurs="0" name="TOTAL" type="xs:string" />
+              <xs:element minOccurs="0" name="GROUPTYP" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

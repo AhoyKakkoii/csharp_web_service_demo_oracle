@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ApprDivSummary" targetNamespace="http://tempuri.org/ApprDivSummary.xsd" xmlns:mstns="http://tempuri.org/ApprDivSummary.xsd" xmlns="http://tempuri.org/ApprDivSummary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ApprDivSummary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ApprDivSummary" msprop:Generator_UserDSName="ApprDivSummary">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ROW_ID" msprop:Generator_ColumnVarNameInTable="columnROW_ID" msprop:Generator_ColumnPropNameInRow="ROW_ID" msprop:Generator_ColumnPropNameInTable="ROW_IDColumn" msprop:Generator_UserColumnName="ROW_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ORGN" msprop:Generator_ColumnVarNameInTable="columnORGN" msprop:Generator_ColumnPropNameInRow="ORGN" msprop:Generator_ColumnPropNameInTable="ORGNColumn" msprop:Generator_UserColumnName="ORGN" type="xs:string" minOccurs="0" />
+              <xs:element name="DIV" msprop:Generator_ColumnVarNameInTable="columnDIV" msprop:Generator_ColumnPropNameInRow="DIV" msprop:Generator_ColumnPropNameInTable="DIVColumn" msprop:Generator_UserColumnName="DIV" type="xs:string" minOccurs="0" />
+              <xs:element name="SumOfPREENCUMBRANCE" msprop:Generator_ColumnVarNameInTable="columnSumOfPREENCUMBRANCE" msprop:Generator_ColumnPropNameInRow="SumOfPREENCUMBRANCE" msprop:Generator_ColumnPropNameInTable="SumOfPREENCUMBRANCEColumn" msprop:Generator_UserColumnName="SumOfPREENCUMBRANCE" type="xs:string" minOccurs="0" />
+              <xs:element name="SumOfENCUMBRANCE" msprop:Generator_ColumnVarNameInTable="columnSumOfENCUMBRANCE" msprop:Generator_ColumnPropNameInRow="SumOfENCUMBRANCE" msprop:Generator_ColumnPropNameInTable="SumOfENCUMBRANCEColumn" msprop:Generator_UserColumnName="SumOfENCUMBRANCE" type="xs:string" minOccurs="0" />
+              <xs:element name="SumOfEXPEND" msprop:Generator_ColumnVarNameInTable="columnSumOfEXPEND" msprop:Generator_ColumnPropNameInRow="SumOfEXPEND" msprop:Generator_ColumnPropNameInTable="SumOfEXPENDColumn" msprop:Generator_UserColumnName="SumOfEXPEND" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPT_DIV_NM" msprop:Generator_ColumnVarNameInTable="columnDEPT_DIV_NM" msprop:Generator_ColumnPropNameInRow="DEPT_DIV_NM" msprop:Generator_ColumnPropNameInTable="DEPT_DIV_NMColumn" msprop:Generator_UserColumnName="DEPT_DIV_NM" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUPTYP" msprop:Generator_ColumnVarNameInTable="columnGROUPTYP" msprop:Generator_ColumnPropNameInRow="GROUPTYP" msprop:Generator_ColumnPropNameInTable="GROUPTYPColumn" msprop:Generator_UserColumnName="GROUPTYP" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
